@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Stay in touch </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style/get_in_touch.css">
+    </head>
+    <body>
+        <div class="form-box">
+            <h1> Get in touch</h1>
+            <h5> Good choice... </h5>
+            <form action="mailto:email@gmail.com" method="post" enctype="text/plain">
+                <input type="text" placeholder="your name please" required><br>
+                <input type="text" placeholder="A contact email" required><br>
+                <select name="project" >
+                    <option value="" disabled selected>About your project</option>
+                    <option value="java"> Java </option>
+                    <option value = "javascript"> Javascript </option>
+                    <option value = "HTML/CSS"> HTML/CSS</option>
+                </select><br>
+                <textarea rows="10" cols="30" placeholder="How can I help?" name="body"></textarea><br>
+                <input class="button" type="submit" value="Send Message"> 
+            </form>
+        </div>
+            
+    </body>
+    
+</html>

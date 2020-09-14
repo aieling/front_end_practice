@@ -1,0 +1,63 @@
+
+@keyframes move {
+    0%   {left: -50px; top: -50px; }
+    100% {left: 250px; top:-50px;}
+}
+
+@keyframes loop {
+    0%   {left: -50px; top: -50px;}
+    25%  { left: 250px; top: -50px;}
+    50%  {left: -50px; top: 250px;}
+    75%  { left: 250px; top: 250px;}
+    100% {left: -50px; top: -50px;}
+  }
+  
+  .firstSquare{
+    width: 100px;
+    height: 100px;
+    background: turquoise;
+    position: absolute;
+    animation: move 3s infinite;
+    animation-direction: alternate;
+    margin: 200px;
+    z-index: 10;
+  }
+
+  .firstVioletBorder{
+    border: 5px solid violet;
+    margin: 200px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+
+    text-align: justify;
+    text-align: center;
+  }
+
+  .square{
+    width: 100px;
+    height: 100px;
+    background: turquoise;
+    position: absolute;
+    animation: loop 5s infinite;
+    animation-direction: right;
+    margin-left: 600px;
+    margin-top: 200px;
+    z-index: 10;
+  }
+
+  .violetBorder{
+    border: 5px solid violet;
+    margin-left: 600px;
+    margin-top: 200px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+  }
+
+
+
+
+
+
